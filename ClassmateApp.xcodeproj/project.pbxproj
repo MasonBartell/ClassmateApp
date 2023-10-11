@@ -16,6 +16,7 @@
 		05AA7FAF2AD6E48000A1C69B /* ClassmateAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AA7FAE2AD6E48000A1C69B /* ClassmateAppTests.swift */; };
 		05AA7FB92AD6E48000A1C69B /* ClassmateAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AA7FB82AD6E48000A1C69B /* ClassmateAppUITests.swift */; };
 		05AA7FBB2AD6E48000A1C69B /* ClassmateAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AA7FBA2AD6E48000A1C69B /* ClassmateAppUITestsLaunchTests.swift */; };
+		05AA7FC82AD6E56C00A1C69B /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AA7FC72AD6E56C00A1C69B /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		05AA7FB42AD6E48000A1C69B /* ClassmateAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassmateAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05AA7FB82AD6E48000A1C69B /* ClassmateAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassmateAppUITests.swift; sourceTree = "<group>"; };
 		05AA7FBA2AD6E48000A1C69B /* ClassmateAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassmateAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05AA7FC72AD6E56C00A1C69B /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				05AA7F972AD6E47F00A1C69B /* AppDelegate.swift */,
 				05AA7F992AD6E47F00A1C69B /* SceneDelegate.swift */,
 				05AA7F9B2AD6E47F00A1C69B /* ViewController.swift */,
+				05AA7FC72AD6E56C00A1C69B /* Student.swift */,
 				05AA7F9D2AD6E47F00A1C69B /* Main.storyboard */,
 				05AA7FA02AD6E48000A1C69B /* Assets.xcassets */,
 				05AA7FA22AD6E48000A1C69B /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				05AA7F9C2AD6E47F00A1C69B /* ViewController.swift in Sources */,
 				05AA7F982AD6E47F00A1C69B /* AppDelegate.swift in Sources */,
 				05AA7F9A2AD6E47F00A1C69B /* SceneDelegate.swift in Sources */,
+				05AA7FC82AD6E56C00A1C69B /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
