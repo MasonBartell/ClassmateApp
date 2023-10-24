@@ -5,7 +5,7 @@
 //  Created by MASON BARTELL on 10/11/23.
 //
 
-import UIKit
+import UIKit 
 
 class ViewController: UIViewController {
 
@@ -18,11 +18,18 @@ class ViewController: UIViewController {
         var s3 = Student(name: "Oliver", age: 26, grade: 12)
         var s4 = Student(name: "Noel", age: 16, grade: 11)
         studentArray.append(s1)
-        
+        studentArray.append(s2)
+        studentArray.append(s3)
+        studentArray.append(s4)
         
     }
-    
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nvc = segue.destination as! ViewController2
+        let nvcTable = segue.destination as! ViewControllerTable
+        nvc.students = studentArray
+        nvcTable.studentsTable = studentArray
+    }
+   
     
     
 
